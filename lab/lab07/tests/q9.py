@@ -1,5 +1,5 @@
 test = {
-  'name': 'q7',
+  'name': 'q5',
   'points': 1,
   'suites': [
     {
@@ -7,7 +7,7 @@ test = {
         {
           'code': r"""
           >>> # Make sure answer your answer is between 1 and 3!
-          >>> 1 <= cutoff_ten_percent <= 3
+          >>> 1 <= candidates_tied <= 3
           True
           """,
           'hidden': False,
@@ -23,7 +23,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> cutoff_ten_percent == 1
+          >>> candidates_tied == 1
           True
           """,
           'hidden': True,
