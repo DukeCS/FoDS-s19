@@ -2,7 +2,7 @@
   "name": "Lab 8: Sample Means",
   "endpoint": "duke/data8/sp19/lab08",
   "src": [
-    "lab07.ipynb"
+    "lab08.ipynb"
   ],
   "tests": {
       "tests/q*.py": "ok_test"
