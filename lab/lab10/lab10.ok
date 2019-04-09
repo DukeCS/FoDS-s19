@@ -1,0 +1,12 @@
+{
+  "name": "Lab 10",
+  "endpoint": "duke/data8/sp19/lab10",
+  "src": [
+  ],
+  "tests": {
+      "tests/q*.py": "ok_test"
+  },
+  "protocols": [
+      "grading"
+  ]
+}
